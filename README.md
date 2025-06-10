@@ -1,19 +1,45 @@
-# Welcome to your Expo app 👋
+# Sevlent Software Solutions (S3)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Mobile App Project (Expo React Native)
 
-## Get started
+### 👨‍🎓 By: Sokomba Chalcedony Ariel  
+**Course:** Computer Science  
+**Institution:** Lincoln College of Science, Management and Technology  
+**Student ID:** LUC-NGA-002-ADM-100817  
+**Semester:** 4
 
-1. Install dependencies
+---
+
+## 📖 Project Overview
+
+**Sevlent Software Solutions (S3)** is a mobile application built using **React Native** and **Expo**. The app is designed to provide scalable, modular, and efficient solutions for mobile-based services — potentially ranging from customer service tools to business management apps.
+
+This project demonstrates practical knowledge in modern app development using JavaScript/TypeScript, file-based routing, component design, and cross-platform deployment.
+
+---
+
+## 🚀 Features
+
+- Built using `create-expo-app` with Expo CLI  
+- Cross-platform: works on **Android**, **iOS**, and **Web**  
+- Hot reloading and easy mobile preview using **Expo Go**
+- Modular file-based routing and scalable structure
+- Customizable template for different types of software solutions
+
+---
+
+## 🛠️ Getting Started
+
+1. **Install project dependencies**
 
    ```bash
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+   
+2. **Run the development server
+   
+   ``` bash
+   npx expo start
    ```
 
 In the output, you'll find options to open the app in a
