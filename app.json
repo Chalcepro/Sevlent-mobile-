@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "anotherreactfile",
-    "slug": "anotherreactfile",
+    "name": "Sevlent",
+    "slug": "sevlent",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "movies",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,10 +13,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/fav.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.thatnewguy23.RegisterationApp"
     },
+    "fonts": [
+      {
+        "asset": "assets/fonts/Poppins-Regular.ttf",
+        "family": "Poppins-Regular"
+      },
+      {
+        "asset": "assets/fonts/Poppins-Medium.ttf",
+        "family": "Poppins-Medium"
+      },
+      {
+        "asset": "assets/fonts/Poppins-Bold.ttf",
+        "family": "Poppins-Bold"
+      }
+    ],
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -27,15 +42,26 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/adaptiveIcon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0bd088eb-5e07-4446-a7a9-8af1cca4da6a"
+      }
+    },
+    "owner": "thatnewguy23"
   }
 }
